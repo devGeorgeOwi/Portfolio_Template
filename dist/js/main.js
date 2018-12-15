@@ -5,7 +5,7 @@ const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItem = document.querySelectorAll(".nav-item");
 
-// Set Initial State mOf Menu
+// Set Initial State Of Menu
 let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
