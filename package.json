@@ -1,15 +1,23 @@
 {
-  "name": "modern_portfolio",
+  "name": "portfolio_template",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "A Modern Day Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
   },
-  "author": "George Owoicho",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devGeorgeOwi/Portfolio_Template.git"
+  },
+  "author": "George Owoicho Adah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devGeorgeOwi/Portfolio_Template/issues"
+  },
+  "homepage": "https://github.com/devGeorgeOwi/Portfolio_Template#readme",
   "dependencies": {
-    "node-sass": "^4.9.3"
-  },
-  "devDependencies": {}
+    "node-sass": "^4.14.1"
+  }
 }
